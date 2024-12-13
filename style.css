@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: #3c3c3c;
+    color: #f3f3f3;
+    height: 5rem;
+    line-height: 5rem;
+    font-family: 'Comic Sans MS', 'Lucida Handwriting', 'Courier New', sans-serif;
+    
+}
+
+.choice{
+    height: 170px;
+    width: 170px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 40%;
+}
+
+.choices{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 3rem;
+   margin-top: 20px;
+}
